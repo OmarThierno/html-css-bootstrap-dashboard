@@ -14,7 +14,7 @@
 </head>
 <body>
   <!-- Header  -->
-  <header>
+  <header class="d-md-none">
     <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
       <!-- Container -->
       <div class="container">
@@ -45,53 +45,41 @@
     <div class="row">
       <!-- Sidebar -->
       <div
-        class="sidebar col-md-3 col-lg-4 collapse d-md-block bg-dark vh-100"
+        class="sidebar col-md-3 col-lg-2 collapse d-md-block bg-dark pb-3"
         id="navbarSupportedContent"
       >
+
+        <div class="d-none d-md-flex text-white justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h5">Bootstrap dashboard</h1>
+        </div>
         
         <ul class="nav nav-pills flex-column pt-4 mb-auto">
           <li>
             <a href="index.html" class="nav-link text-white" aria-current="page">
-              <svg class="bi pe-none me-2" width="16" height="16">
-                <use xlink:href="#home"></use>
-              </svg>
               <i class="fa-solid fa-house"></i>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
             <a href="sponsorizzazione.html" class="nav-link active" aria-current="page">
-              <svg class="bi pe-none me-2" width="16" height="16">
-                <use xlink:href="#home"></use>
-              </svg>
-              <i class="fa-solid fa-house"></i>
               <i class="fa-solid fa-chart-line"></i>
               Sponsorizzazione
             </a>
           </li>
           <li>
             <a href="prodotti.html" class="nav-link text-white">
-              <svg class="bi pe-none me-2" width="16" height="16">
-                <use xlink:href="#table"></use>
-              </svg>
               <i class="fa-solid fa-box-archive"></i>
               Prodotti
             </a>
           </li>
           <li>
             <a href="nuovo-prodotti.html" class="nav-link text-white">
-              <svg class="bi pe-none me-2" width="16" height="16">
-                <use xlink:href="#grid"></use>
-              </svg>
               <i class="fa-solid fa-plus"></i>
               Nuovo prodotto
             </a>
           </li>
           <li>
             <a href="#" class="nav-link text-white">
-              <svg class="bi pe-none me-2" width="16" height="16">
-                <use xlink:href="#people-circle"></use>
-              </svg>
               <i class="fa-solid fa-user"></i>
               Clienti
             </a>
@@ -125,7 +113,7 @@
       </div>
 
       <!-- Main -->
-      <main class="col-md-9 col-lg-8">
+      <main class="col-md-9 col-lg-10 vh-100">
         <!-- ROW  -->
         <div class="row pt-5">
           <div class="col-12">
@@ -134,8 +122,8 @@
                 <h5 class="card-title">Trova il piano perfetto per te!</h5>
                 <p class="card-text">Scegli tra le nostre opzioni di abbonamenti e goditi funzionalità esclusive e performance migliori.</p>
                 <p class="card-text fw-semibold">Porta la tua sperienza al livello succesivo</p>
-                <a href="#" class="btn btn-primary rounded-pill">Go somewhere</a>
-                <a href="#" class="btn btn-outline-secondary rounded-pill">Go somewhere</a>
+                <a href="#" class="btn btn-primary rounded-pill">Scopri di più</a>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">Contattaci</a>
 
                 <div class="row row-cols-1 row-cols-lg-3 mt-3 g-3">
                   <!-- MIN COL  -->
@@ -151,7 +139,7 @@
                         <div class="card-text">Pubblicità</div>
                         <div class="card-text mb-3">Supporto email</div>
                         <div class="d-grid">
-                          <button class="btn btn-outline-primary" type="button">Button</button>
+                          <a href="#" class="btn btn-outline-primary">Prosegui</a>
                         </div>
                       </div>
                     </div>
@@ -171,7 +159,7 @@
                         <div class="card-text">Senza pubblicità</div>
                         <div class="card-text mb-3">Supporto email prioritario</div>
                         <div class="d-grid">
-                          <button class="btn btn-primary" type="button">Button</button>
+                          <a href="#" class="btn btn-primary">Prosegui</a>
                         </div>
                       </div>
                     </div>
@@ -191,7 +179,7 @@
                         <div class="card-text">Senza pubblicità</div>
                         <div class="card-text mb-3">Supporto email e chat</div>
                         <div class="d-grid">
-                          <button class="btn btn-primary" type="button">Button</button>
+                          <a href="#" class="btn btn-primary">Prosegui</a>
                         </div>
                       </div>
                     </div>
